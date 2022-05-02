@@ -1,0 +1,10 @@
+export const MIN_DELAY = 3600; //MILLISECONDS
+export const VOTING_PERIOD = 5; //BLOCKS
+export const VOTING_DELAY = 1; //BLOCKS
+export const QUORUM_PERCENTAGE = 10; //PERCENTAGE OF VOTERS NEEDED FOR A PROPOSAL TO PASS
+export const ADDRESS_ZERO = "0x0000000000000000000000000000000000000000";
+export const NEW_STORE_VALUE = 77;
+export const FUNC = "store";
+export const PROPOSAL_DESCRIPTON = "Proposal #1 - store 77 in the box";
+export const developmentChains = ["hardhat", "localhost"];
+export const proposalsFile = "proposals.json";
